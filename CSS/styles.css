@@ -1,7 +1,22 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+h1 {
+  font-size: 3rem;
+}
 /* HEADER STYLE */
-.logo-text{
+.logo{
+  display: flex;
   font-family: 'Major Mono Display', monospace;
+  max-width: 40%;
+}
+.logo-img{
+  height: 80px;
+  margin: 5px;
+}
+.logo-subtext{
+  font-size: 0.8rem;
+  position: absolute;
+  top: 15px;
+  left: 110px;
 }
