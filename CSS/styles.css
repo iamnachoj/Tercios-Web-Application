@@ -35,6 +35,7 @@ header{
 }
 .logo-subtext{
   font-family: 'Major Mono Display', monospace;
+  font-weight: 500;
   font-size: 0.75rem;
   position: absolute;
   top:18px;
