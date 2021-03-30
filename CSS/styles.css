@@ -1,5 +1,6 @@
 body{
   background-color: #d6efc7;
+  background-image: url("../img/bg-image.jpg");
   font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
@@ -7,6 +8,11 @@ h1 {
   font-size: 3rem;
   color: white;
   font-family: 'Major Mono Display', monospace;
+  text-shadow: 2px 2px black;
+}
+h2{
+  font-family: 'Bungee', cursive;
+  color:white;
   text-shadow: 2px 2px black;
 }
 /* HEADER STYLE */
@@ -54,4 +60,19 @@ nav{
   color: #96bb7c;
 }
 /* end of HEADER */
+
 /* MAIN STYLE */
+main{
+  padding: 8%;
+  text-align: center;
+}
+main h1 {
+  font-size: 4rem;
+}
+
+
+
+/* FEATURES STYLE */
+.features{
+  background-color: #d6efc7;
+}
