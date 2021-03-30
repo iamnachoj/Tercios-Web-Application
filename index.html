@@ -26,9 +26,22 @@
 
   <!-- MAIN -->
   <main>
+    <div class="main-logo">
+      <img class="logo-img" src="img/logo.jpg" alt="Tercios' logo">
+      <h1 class="logo-text">Tercios</h1>
+      <h4 class="logo-subtext">The bar finder</h4>
+    </div>
+    <!-- bar-finder form -->
+    <form class="bar-finder" action="/" method="get">
+     <label for="location">📍 Location: </label>
+     <input id="location" type="text" name="location" required>
 
-
-
+     <label for="match">⚽ Team: </label>
+     <input id="match" type="text" name="teamA">
+     <p class="vs">VS</p>
+     <input type="text" name="teamB" placeholder="forgot? leave me blank!">
+     <button type="submit" value="Find bars">Find bars</button>
+    </form>
   </main><!-- End of MAIN -->
 
   <!-- FOOTER -->
