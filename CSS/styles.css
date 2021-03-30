@@ -68,6 +68,11 @@ main{
 }
 main h1 {
   font-size: 4rem;
+  margin-bottom: 0;
+}
+main h2{
+  font-size: 2rem;
+  margin-top: 0;
 }
 
 
