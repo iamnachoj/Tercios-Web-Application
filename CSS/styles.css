@@ -17,7 +17,7 @@ h2{
 }
 /* HEADER STYLE */
 header{
-  background-color: #184d47;
+  background-color: #000;
   padding: 10px 0 0 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
