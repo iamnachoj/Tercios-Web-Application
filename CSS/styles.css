@@ -6,14 +6,16 @@ body{
 }
 h1 {
   font-size: 3rem;
+  font-weight: 500;
   color: white;
   font-family: 'Major Mono Display', monospace;
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
 }
 h2{
   font-family: 'Bungee', cursive;
+  font-weight: 500;
   color:white;
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
 }
 /* HEADER STYLE */
 header{
