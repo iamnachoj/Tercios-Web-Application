@@ -5,6 +5,8 @@ body{
 }
 h1 {
   font-size: 3rem;
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: 2px 2px black;
 }
 /* HEADER STYLE */
 header{
@@ -17,7 +19,6 @@ header{
 /* Logo */
 .logo{
   display: flex;
-  font-family: 'Major Mono Display', monospace;
   max-width: 40%;
 }
 .logo-img{
@@ -25,11 +26,14 @@ header{
   margin: 5px;
 }
 .logo-subtext{
+  font-family: 'Major Mono Display', monospace;
   font-size: 0.75rem;
   position: absolute;
   top:18px;
   left: 120px;
   color:white;
+  text-shadow: 2px 2px black;
+
 }/* end of logo */
 
 /* Navigation bar */
