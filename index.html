@@ -35,13 +35,18 @@
       <h2>Find a bar. Watch the game</h2>
     </div>
     <form class="bar-finder" action="/" method="get">
-      <label for="location">📍 Location: </label>
-      <input id="location" type="text" name="location" required>
-      <label for="match">⚽ Team: </label>
-      <input id="match" type="text" name="teamA" required>
-      <p class="vs">vs</p>
-      <input type="text" name="teamB" placeholder="forgot? leave me blank!">
-      <button type="submit" value="Find bars">Find bars</button>
+      <fieldset>
+        <legend>Fill location and match</legend>
+        <label for="location">📍 Location: </label>
+        <input id="location" type="text" name="location" required><br>
+        <div class="match">
+          <label for="teamA">⚽ Team: </label>
+          <input id="teamA" type="text" name="teamA" required>
+          <p class="vs">vs</p>
+          <input type="text" name="teamB" placeholder="forgot? leave me blank!">
+        </div>
+        <button type="submit" value="Find bars">Find bars</button>
+      </fieldset>
     </form>
   </main>
 
