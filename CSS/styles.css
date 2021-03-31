@@ -82,8 +82,16 @@ main h2{
   margin-top: 0;
 }
 form{
-  color: white;
-
+  width: 30%;
+  padding: 1% 12px;
+  margin: 1% auto;
+}
+input{
+  width: 95%;
+  margin: 0;
+}
+form button {
+  width: 95%;
 }
 /* FEATURES STYLE */
 .features{
