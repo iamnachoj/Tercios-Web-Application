@@ -69,7 +69,7 @@ nav{
 /* MAIN STYLE */
 main{
   height: 500px;
-  padding: 8%;
+  padding: 9%;
   text-align: center;
 }
 main h1 {
@@ -82,33 +82,8 @@ main h2{
   margin-top: 0;
 }
 form{
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 6px 6px 15px black;
-  opacity: 80%;
-  max-width: 65%;
-  margin: auto;
-  font-size: 135%;
-  text-align: left;
-  padding: 20px;
-}
-input{
-  width: 70%;
-  padding: 5px;
-  font-size: 100%;
-  border-radius: 6px;
-}
-.match input{
-  width: 32%;
-}
-.teamA{
-  padding-right: 20px;
-}
-.location{
-  margin: 20px 0 30px;
-}
-.vs{
-  display: inline;
+  color: white;
+
 }
 /* FEATURES STYLE */
 .features{
