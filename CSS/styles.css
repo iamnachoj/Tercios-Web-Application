@@ -62,7 +62,7 @@ nav{
   color:white;
 }
 .nav-item:hover{
-  color: #96bb7c;
+  color: #5EFF46;
 }
 /* end of HEADER */
 
@@ -82,11 +82,13 @@ main h2{
   margin-top: 0;
 }
 form{
-  max-width: 900px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 6px 6px 15px black;
+  opacity: 80%;
+  max-width: 600px;
   margin: auto;
   font-size: 135%;
-  color: white;
-  text-shadow: 2px 2px black;
 }
 input{
   width: 200px;
