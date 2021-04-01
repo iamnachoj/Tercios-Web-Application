@@ -82,13 +82,32 @@ main h2{
   margin-top: 0;
 }
 form{
-  width: 30%;
+  background-color: white;
+  opacity: 85%;
+  border-radius: 12px;
+  box-shadow: 6px 6px 15px black;
+  width: 60%;
   padding: 1% 12px;
   margin: 1% auto;
 }
-input{
+input[type=text], select {
   width: 100%;
-  margin: 5px auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 /* FEATURES STYLE */
 .features{
