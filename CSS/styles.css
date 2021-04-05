@@ -8,9 +8,6 @@
 
 body{
   background-color: var(--main-bg-color);
-  background-image: url("../img/bg-image.jpg");
-  background-repeat: no-repeat;
-  background-size:contain;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
@@ -38,6 +35,11 @@ h2{
 }
 .button:hover{
     background-color:var(--button-hover-color) ;
+}
+.grapper-img{
+  background-image: url("../img/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* HEADER STYLE */
 header{
