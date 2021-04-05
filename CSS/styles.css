@@ -12,7 +12,7 @@ body{
   margin: 0;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 300%;
   font-weight: 500;
   color: white;
   font-family: 'Major Mono Display', monospace;
@@ -20,9 +20,20 @@ h1 {
 }
 h2{
   font-family: 'Bungee', cursive;
+  font-size: 250%;
   font-weight: 500;
   color:white;
   text-shadow: 3px 3px black;
+  line-height: 40px;
+}
+h3{
+  font-family: 'Bungee', cursive;
+  font-size: 150%;
+  font-weight: 500;
+  line-height: 30px;
+}
+p{
+  font-size: 130%;
 }
 .button{
   background-color:var(--button-bg-color);
@@ -36,6 +47,7 @@ h2{
 .button:hover{
     background-color:var(--button-hover-color) ;
 }
+/* Image that graps header and main */
 .grapper-img{
   background-image: url("../img/bg-image.jpg");
   background-repeat: no-repeat;
@@ -97,7 +109,7 @@ main{
 main h1 {
   font-weight: 600;
   font-size: 4rem;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 main h2{
   font-size: 2rem;
@@ -130,9 +142,25 @@ input[type=text], select {
 .features{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 2%;
 }
 .feature-img{
-  height: 5rem;
+  height: 7rem;
   margin-bottom: 4%;
   margin-top: 2%;
+}
+.feature-element{
+  text-align: center;
+  padding: 10% 7%;
+  display: inline-block;
+  min-width: 33%;
+}
+.feature-element p {
+  width: 70%;
+  margin: auto;
+}
+@media all and (max-width: 800px) {
+  .features{
+    grid-template-columns: 1fr;
+  }
 }
