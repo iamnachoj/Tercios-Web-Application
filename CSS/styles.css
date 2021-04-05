@@ -166,3 +166,10 @@ input[type=text], select {
 }
 
 /* FOOTER */
+footer{
+  background-color: var(--header-bg-color);
+  color:white;
+  text-align: center;
+  padding: 2% 0;
+
+}
