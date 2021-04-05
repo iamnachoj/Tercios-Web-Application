@@ -1,5 +1,12 @@
+/* palette */
+:root {
+  --main-bg-color: #d6efc7;
+  --header-bg-color: #101010;
+  --button-bg-color: #4CAF50;
+  --button-hover-color: #66BB6A;
+}
 body{
-  background-color: #d6efc7;
+  background-color: var(--main-bg-color);
   background-image: url("../img/bg-image.jpg");
   background-repeat: no-repeat;
   background-size:contain;
@@ -21,7 +28,7 @@ h2{
 }
 /* HEADER STYLE */
 header{
-  background-color: #101010;
+  background-color: var(--header-bg-color);
   padding: 10px 0 0 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -62,7 +69,7 @@ nav{
   color:white;
 }
 .nav-item:hover{
-  color: #5EFF46;
+  color: var(--button-hover-color);
 }
 /* end of HEADER */
 
@@ -101,7 +108,7 @@ input[type=text], select {
 }
 .form-button{
   width: 100%;
-  background-color: #4CAF50;
+  background-color:var(--button-bg-color);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -109,7 +116,8 @@ input[type=text], select {
   border-radius: 4px;
   cursor: pointer;
 }
-/* FEATURES STYLE */
-.features{
-  background-color: #d6efc7;
+.form-button:hover{
+  background-color:var(--button-hover-color) ;
 }
+
+/* FEATURES STYLE */
