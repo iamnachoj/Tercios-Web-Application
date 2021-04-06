@@ -54,50 +54,12 @@ p{
   background-size: cover;
 }
 /* HEADER STYLE */
-header{
-  background-color: var(--header-bg-color);
-  padding: 10px 0 0 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-/* Logo */
-.logo{
-  display: flex;
-  max-width: 40%;
-}
-.logo-img{
-  height: 80px;
-  margin: 5px;
-}
-.logo-subtext{
-  font-family: 'Major Mono Display', monospace;
-  font-weight: 500;
-  font-size: 0.75rem;
-  position: absolute;
-  top:18px;
-  left: 120px;
-  color:white;
-  text-shadow: 2px 2px black;
 
-}/* end of logo */
+/* Logo */
+/* end of logo */
 
 /* Navigation bar */
-nav{
-  text-align: right;
-  margin-top: 22px;
-}
-.nav-item{
-  font-weight: 500;
-  text-decoration: none;
-  display:inline-block;
-  padding: 10px;
-  margin: 1% 3%;
-  font-size: 1.2rem;
-  color:white;
-}
-.nav-item:first-child:hover{
-  color: var(--button-hover-color);
-}
+
 /* end of HEADER */
 
 /* MAIN STYLE */
