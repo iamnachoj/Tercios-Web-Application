@@ -58,7 +58,7 @@ p{
   display: inline;
 }
 .topnav {
-  padding: 2% 5%;
+  padding: 3% 5% 2%;
   overflow: hidden;
   background-color: var(--header-bg-color);
 }
