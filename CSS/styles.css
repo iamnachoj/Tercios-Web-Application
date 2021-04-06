@@ -73,6 +73,10 @@ main h1 {
   font-size: 4rem;
   margin-bottom: 10px;
 }
+@media all and (max-width: 500px) {
+  main h1{
+    font-size: 3rem;
+  }
 main h2{
   font-size: 2rem;
   margin-top: 0;
