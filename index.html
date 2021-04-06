@@ -7,6 +7,7 @@
   <meta name="keywords" content="Tercios Bar football watch game near me. Bars near my area">
   <meta name="author" content="Ignacio Jimenez">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/2c52a09b03.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="img/logo.png">
   <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- Google Fonts: Montserrat, Mono Display. -->
   <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat:wght@400;500&display=swap&family=Bungee" rel="stylesheet">
@@ -18,30 +19,29 @@
   <!-- DIV grapper spans Header and MAIN -->
   <!-- HEADER -->
   <div class="grapper-img">
-   <header>
-    <div class="logo">
-      <img class="logo-img" src="img/logo.png" alt="Tercios logo">
-      <h1 class="logo-text">Tercios</h1>
-      <h4 class="logo-subtext">The footall bar finder</h4>
-    </div>
-    <nav>
-      <a class="nav-item" href="#">about us</a>
-      <a class="nav-item button" href="#">I'm a bar!</a>
-    </nav>
-  </header><!-- End of HEADER -->
+    <header class="topnav" id="myTopnav">
+      <h1 class="heading-title">Tercios</h1>
+      <a href="#imabar" class="active">I am a bar!</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>    
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </header><!-- End of HEADER -->
 
-  <!-- MAIN -->
-   <main>
-    <div>
-      <h1>Tercios</h1>
-      <h2>Find a bar. Watch the game</h2>
-    </div>
-    <form action="/" method="get">
+    <!-- MAIN -->
+    <main>
+      <div>
+        <h1>Tercios</h1>
+        <h2>Find a bar. Watch the game</h2>
+      </div>
+      <form action="/" method="get">
         <input type="text" name="location" placeholder="Location" required>
         <input type="text" name="team" placeholder="Football team" required>
         <button class="form-button button" type="submit" name="submit">Find bars</button>
-    </form>
-   </main>
+      </form>
+    </main>
   </div><!-- End of div grapper -->
   <!-- FEATURES -->
   <section class="features">
@@ -76,6 +76,16 @@
       Tercios&trade;. All rights reserved.
     </div>
   </footer><!-- End of FOOTER -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 
 </html>
