@@ -1,7 +1,7 @@
 # Tercios Web Application
  Tercios the football bar finder
 
-For now, landing page is finished. NBA will be to first fix responsiveness in the header, and make sure the rest works fine in all devices.
+For now, landing page is finished.
 
 Second and more importantly, work on the app: we will need to create a database where all the bars say their city, and a calendar where they post the matches and the time
 Once we gather a good amount of bars, we need to make an app that sends bars per city requested and matches. 
