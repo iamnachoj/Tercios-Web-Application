@@ -1,5 +1,7 @@
 # Tercios Web Application
- Tercios the football bar finder
+ Tercios the football bar finder. An app that helps you finding bars in the area that will play your favourite football match.
+ 
+Stack: HTML CSS & JS. (Node.js + express) 
 
 For now, landing page is finished.
 
