@@ -1,14 +1,26 @@
 # Tercios Web Application
- Tercios the football bar finder. An app that helps you finding bars in the area that will play your favourite football match.
+
+## Project Goals 
+Tercios, the football bar finder, is an app that helps you finding bars in the area that will play your favourite football match. This project is simply a front-end website that shows styling best-practice with pure CSS. 
  
-Stack: HTML CSS & JS. (Node.js + express) 
+Once the website is open, you should be able to view a minimal-designed search bar where you can type in your location in Spain, and the football team you want to watch.
 
-For now, landing page is finished.
+The App is full responsive and enabled in Chrome, Firefox, Safari, Edge, and Internet Explorer 11.
 
-Second and more importantly, work on the app: we will need to create a database where all the bars say their city, and a calendar where they post the matches and the time
-Once we gather a good amount of bars, we need to make an app that sends bars per city requested and matches. 
+# Key Features
+- nav-bar fully responsive built with vanilla JavaScript
+- Opaque search bar that adjust to different screens
+- UI patterns that follow best trends.
+- 
+# Tech stack:
+- Html
+- CSS
+- JavaScript
 
-After that, the next action needs to be the "I am in" system, where bars can be notified by users that want to go. This way, they get on a "VIP" list of sorts, where bars
-can give them special offers. 
+# Setup guide:
+- clone the repository:  ``` git clone xxxx```
+- Change directory: ```cd xxx```
 
-Once I know how to make the app perform, things should not be hard. 
+# Deployment
+### Deployment to github pages
+ - Click this link to view demo <a href="https://iamnachoj.github.io/Tercios-Web-Application/">LIVE DEMO</a>
