@@ -7,20 +7,20 @@ Once the website is open, you should be able to view a minimal-designed search b
 
 The App is full responsive and enabled in Chrome, Firefox, Safari, Edge, and Internet Explorer 11.
 
-# Key Features
+## Key Features
 - nav-bar fully responsive built with vanilla JavaScript
 - Opaque search bar that adjust to different screens
 - UI patterns that follow best trends.
 - 
-# Tech stack:
+## Tech stack:
 - Html
 - CSS
 - JavaScript
 
-# Setup guide:
+## Setup guide:
 - clone the repository:  ``` git clone xxxx```
 - Change directory: ```cd xxx```
 
-# Deployment
+## Deployment
 ### Deployment to github pages
  - Click this link to view demo <a href="https://iamnachoj.github.io/Tercios-Web-Application/">LIVE DEMO</a>
