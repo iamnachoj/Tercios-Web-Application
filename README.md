@@ -11,7 +11,6 @@ The App is full responsive and enabled in Chrome, Firefox, Safari, Edge, and Int
 - nav-bar fully responsive built with vanilla JavaScript
 - Opaque search bar that adjust to different screens
 - UI patterns that follow best trends.
-- 
 ## Tech stack:
 - Html
 - CSS
